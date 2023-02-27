@@ -1,0 +1,45 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ------- */
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider{
+    width: 50rem;
+    height: 25rem;
+    position: relative;
+    background-color: burlywood;
+}
+.item{
+    width: 100%;
+    height: 100%;
+}
+.item > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.next,.prev{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    cursor: pointer;
+    font-size: 1.25rem;
+    color: white;
+}
+.next{
+    top: .625rem;
+}
+.prev{
+    bottom: .625rem;
+}
