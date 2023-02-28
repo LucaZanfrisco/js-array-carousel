@@ -48,4 +48,10 @@ Al click delle frecce, oltre al cambio di immagine attiva, gestire il cambio di 
 
 **Bonus 2:** 
 
-....
+1. Creare nell'html un elemento thumbnail
+2. Definire una variabile che prenda l'elemento html 'thumbnail'
+3. Attraverso un ciclo creare gli elementi 
+4. Definire una variabile contatore
+5. Selezionare tutti gli elementi all'interno di 'thumbnail'
+6. Applicare al primo elemento una classe
+7. Aggiungere agli eventi dei bottoni lo spostamento delle classi in base alla variabile contatore
